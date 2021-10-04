@@ -11,7 +11,7 @@ const Abouts = (props) => {
                     <div className="container-about">
                         <h2>{name}</h2>
                         <p className="title-about">{job}</p>
-                        <p>{description}</p>
+                        <p>{description.slice(0, 165)} ...</p>
                         <p>{email}</p>
                         <p><button className="button-about">Contact</button></p>
                     </div>

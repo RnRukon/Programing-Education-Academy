@@ -20,7 +20,7 @@ const Header = () => {
 
                                 {/* header button */}
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                                    <a className="btn btn-primary btn-lg px-4 me-sm-3" href="#home-service">Get Service</a>
+                                    <a className="btn btn-primary btn-lg px-4  btn-outline-warning text-white me-sm-3" href="#home-service">Get Service</a>
                                     <Link className="btn btn-outline-light btn-lg px-4" to="/services">Learn More</Link>
                                 </div>
                             </div>

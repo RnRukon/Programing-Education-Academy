@@ -29,7 +29,7 @@
 }
 
 .title-about {
-    color: grey;
+    color: rgb(251, 255, 0);
 }
 
 .button-about {
@@ -37,7 +37,7 @@
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: #000;
     text-align: center;
     cursor: pointer;
@@ -50,7 +50,7 @@
 }
 
 .button-about:hover {
-    background-color: #555;
+    background-color: rgb(255, 99, 99);
 }
 
 @media screen and (max-width: 650px) {
