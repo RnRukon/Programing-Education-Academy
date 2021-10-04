@@ -29,26 +29,26 @@ const Navbar = () => {
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item p-2">
                             <NavLink
-                                style={{ textDecoration: 'none', color: 'white' }}
+                                style={{ textDecoration: 'none', color: 'white', fontWeight: 'bold' }}
                                 activeStyle={{ color: 'red', fontWeight: 'bold' }}
                                 aria-current="page" to="/home">Home</NavLink>
                         </li>
 
                         <li className="nav-item p-2">
                             <NavLink
-                                style={{ textDecoration: 'none', color: 'white' }}
+                                style={{ textDecoration: 'none', color: 'white', fontWeight: 'bold' }}
                                 activeStyle={{ color: 'red', fontWeight: 'bold' }}
                                 to="/services">Services</NavLink>
                         </li>
                         <li className="nav-item p-2">
                             <NavLink
-                                style={{ textDecoration: 'none', color: 'white' }}
+                                style={{ textDecoration: 'none', color: 'white', fontWeight: 'bold' }}
                                 activeStyle={{ color: 'red', fontWeight: 'bold' }}
                                 to="/about">About</NavLink>
                         </li>
                         <li className="nav-item p-2">
                             <NavLink
-                                style={{ textDecoration: 'none', color: 'white' }}
+                                style={{ textDecoration: 'none', color: 'white', fontWeight: 'bold' }}
                                 activeStyle={{ color: 'red', fontWeight: 'bold' }}
                                 to="/contact">Contact</NavLink>
                         </li>

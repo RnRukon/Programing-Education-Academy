@@ -12,7 +12,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: rgb(3, 95, 194);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -21,7 +21,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ffd902;
+    color: red;
 }
 
 /* container */
@@ -34,6 +35,6 @@ input[type=submit]:hover {
 }
 
 .input-container {
-    background-color: rgba(77, 76, 76, 0.616);
+    background-color: rgb(1, 41, 83);
     color: rgb(255, 255, 255);
 }
