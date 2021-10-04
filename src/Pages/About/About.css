@@ -1,0 +1,61 @@
+.column-about {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card-about {
+    box-shadow: 0 4px 8px 0 rgba(0, 11, 114, 0.726);
+    margin: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #000a68a2;
+    color: white;
+}
+
+.container-about {
+    padding: 0 16px;
+}
+
+.container-about::after, .row-about::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title-about {
+    color: grey;
+}
+
+.button-about {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.team-title {
+    color: deeppink;
+    font-weight: 900;
+}
+
+.button-about:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+    .column-about {
+        width: 100%;
+        display: block;
+    }
+}

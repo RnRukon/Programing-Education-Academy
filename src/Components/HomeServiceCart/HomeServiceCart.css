@@ -1,0 +1,7 @@
+.home-services-cart-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid red;
+    border-style: none;
+    grid-gap: 10px;
+}
