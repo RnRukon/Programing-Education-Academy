@@ -4,6 +4,9 @@ import { NavLink } from 'react-router-dom';
 
 const NotFound = () => {
     return (
+
+        // Not found page
+
         <div className="mb-5">
             <div className="text-center pt-5">
                 <img style={{ width: '500px' }} src='https://www.elegantthemes.com/blog/wp-content/uploads/2020/02/000-404.png' alt="" />

@@ -7,6 +7,9 @@ const Services = () => {
     // console.log(services)
 
     return (
+
+        // services page
+
         <div className="container">
             <div className=" d-flex justify-content-center py-5 text-danger">
                 <h1 className=" border-bottom border-danger w-25 text-center">Services</h1>

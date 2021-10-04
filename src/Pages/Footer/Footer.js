@@ -4,6 +4,9 @@ import './Footer.css';
 
 const Footer = () => {
     return (
+
+        // footer page
+
         <footer className="py-5 footer-style-bg">
             <div className=" container d-flex  justify-content-lg-center">
                 <div className=" d-flex justify-content-center w-50">
@@ -23,6 +26,8 @@ const Footer = () => {
 
                     </div>
 
+                    {/* contact */}
+
                     <div className="container">
                         <Link className=" text-white">
                             <h6><i className="fas fa-address-book"></i> Contact</h6>
@@ -33,6 +38,9 @@ const Footer = () => {
                         <h6 className="text-white"><i className="fas fa-mobile-alt"></i> Mobile: 017654592</h6>
                         <small className="text-white"><i className="fas fa-envelope-square"></i> Email: Rukon.js@gamil.com</small>
                     </div>
+
+                    {/* Means of communication */}
+
                     <div className="container">
                         <Link className=" text-white">
                             <h6><i className="fab fa-facebook-square"></i> Facebook</h6>

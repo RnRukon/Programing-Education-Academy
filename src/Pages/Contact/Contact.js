@@ -10,6 +10,8 @@ const Contact = () => {
                 <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name.."></input>
+
+                {/* country input value */}
                 <label for="country">Country</label>
                 <select id="country" name="country">
                     <option value="australia">Australia</option>
@@ -17,8 +19,13 @@ const Contact = () => {
                     <option value="usa">USA</option>
                     <option value="usa">BanglaDesh</option>
                 </select>
+
+                {/* Subject */}
+
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style={{ height: "200px" }}></textarea>
+
+                {/* submit button */}
                 <input type="submit" value="Submit" />
             </div>
         </div>

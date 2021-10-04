@@ -1,3 +1,5 @@
+/* contact page style */
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -21,6 +23,8 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+/* container */
 
 .container-input-contact {
     border-radius: 5px;
