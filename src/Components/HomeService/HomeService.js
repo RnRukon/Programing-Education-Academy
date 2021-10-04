@@ -5,7 +5,7 @@ import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const HomeService = (props) => {
-    const { title, img, description } = props.service;
+    const { title, img, description, price } = props.service;
     return (
 
         <Col md={5} className="border border-2 p-4 home-services-card" style={{ width: '500px', height: 'auto', margin: '15px' }}>
@@ -22,6 +22,9 @@ const HomeService = (props) => {
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                         {description}
+                    </Typography>
+                    <Typography className="text-danger text-bold" gutterBottom variant="h5" component="div">$
+                        {price}
                     </Typography>
                 </CardContent>
             </CardActionArea>
