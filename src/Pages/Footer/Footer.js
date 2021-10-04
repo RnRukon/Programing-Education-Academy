@@ -8,8 +8,8 @@ const Footer = () => {
         // footer page
 
         <footer className="py-5 footer-style-bg">
-            <div className=" container d-flex  justify-content-lg-center">
-                <div className=" d-flex justify-content-center w-50">
+            <div className=" container  d-flex  justify-content-center">
+                <div className=" d-lg-flex d-md-flex justify-content-center w-50">
                     <div className="container">
                         <Link className=" text-white">
                             <h6> <i className="fas fa-laptop-code"></i> Service</h6>
