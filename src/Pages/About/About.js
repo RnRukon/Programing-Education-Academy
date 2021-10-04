@@ -16,7 +16,7 @@ const About = () => {
             <h2 className="text-center p-5 team-title">Our Team</h2>
             <div className="row-about">
                 {
-                    aboutData.map(about => <Abouts about={about}></Abouts>)
+                    aboutData.map(about => <Abouts key={about.id} about={about}></Abouts>)
                 }
             </div>
         </div>

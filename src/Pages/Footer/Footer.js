@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container text-center mt-5 pt-5">
-                <small className="m-0 text-white">Copyright &copy; Your Website 2021</small>
+                <small className="m-0 text-white">Copyright <span className="text-danger">&copy;</span> Your Website 2021</small>
             </div>
         </footer>
     );
