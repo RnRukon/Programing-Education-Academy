@@ -7,7 +7,7 @@ const Blog = () => {
             <div className="d-flex justify-content-center p-4">
                 <h1 className="text-danger text-center border-bottom border-danger w-25">Blog</h1>
             </div>
-            <div div className="leftcolumn p-4" >
+            <div div className="leftcolumn" >
                 <div className="block-bg-style card p-4">
                     <h2>Better Programming</h2>
                     <h5>Description, 4 October, 2021</h5>
