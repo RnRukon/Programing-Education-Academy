@@ -2,7 +2,8 @@ import { Card, CardActionArea, CardActions, CardContent, CardMedia, Typography, 
 import React from 'react';
 
 const Service = (props) => {
-    const { title, img, description } = props?.service;
+    const { title, img, description, price } = props?.service;
+
     return (
 
 
@@ -20,6 +21,9 @@ const Service = (props) => {
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                         {description}
+                    </Typography>
+                    <Typography style={{ color: 'red', fontWeight: 'bold' }} gutterBottom variant="h5" component="div">$
+                        {price}
                     </Typography>
                 </CardContent>
             </CardActionArea>
