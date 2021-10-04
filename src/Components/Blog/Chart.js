@@ -3,12 +3,12 @@ import './Blog.css';
 const Blog = () => {
 
     return (
-        <div>
+        <div >
             <div className="d-flex justify-content-center p-4">
                 <h1 className="text-danger text-center border-bottom border-danger w-25">Blog</h1>
             </div>
             <div div className="leftcolumn p-4" >
-                <div className="card p-4">
+                <div className="block-bg-style card p-4">
                     <h2>Better Programming</h2>
                     <h5>Description, 4 October, 2021</h5>
                     <img style={{ height: "300px", width: "100%" }} src="https://content.techgig.com/thumb/msid-79844104,width-860,resizemode-4/5-Best-programming-languages-to-learn-in-2021.jpg?140622" alt="" />

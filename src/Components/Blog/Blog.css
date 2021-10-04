@@ -3,3 +3,8 @@
     width: 25%;
     padding-left: 20px;
 }
+
+.block-bg-style {
+    background-color: rgb(0, 68, 128);
+    color: aliceblue;
+}
