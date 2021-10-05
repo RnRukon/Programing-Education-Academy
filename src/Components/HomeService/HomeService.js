@@ -8,7 +8,7 @@ const HomeService = (props) => {
     const { title, img, description, price } = props.service;
     return (
 
-        <Col md={5} className="border border-2 p-4 home-services-card" style={{ width: '500px', height: 'auto', margin: '15px' }}>
+        <Col md={5} className="border  border-2 p-4 home-services-card" style={{ width: '500px', height: 'auto', margin: '15px', borderRadius: '7px' }}>
             <CardActionArea>
                 <CardMedia
                     component="img"

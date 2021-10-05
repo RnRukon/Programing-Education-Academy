@@ -4,14 +4,14 @@
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR444afzABg6_p36n2bl1fQ88_wswyHFWGMu2UeOWJsTmL8jpufe4a4WVfdPSNAyHAFhr8&usqp=CAU",
         "title": "HTML",
         "description": "In just 3 hours, learn basic HTML, the skeleton of all web pages, and place text on a page, add images & videos, and share data in HTML tables.",
-        "price": 5500
+        "price": 500
     },
     {
         "id": 2,
         "img": "https://i0.wp.com/www.moreonfew.com/wp-content/uploads/2020/04/CSS3_Banner_sj8ajl_ysks4e.png?fit=940%2C307&ssl=1",
         "title": "CSS",
         "description": "Master your language with lessons, quizzes, and projects designed for real-life scenarios. Take your skills to a new level and join millions of users that have learned HTML & CSS. Leader in Online Tech Ed. Affordable Learning. Upgrade Your Career Today.",
-        "price": 6500
+        "price": 600
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@
         "img": "https://analyticsindiamag.com/wp-content/uploads/2021/01/pasted-image-0-2.png",
         "title": "React",
         "description": "Transform your resume with a degree from a top university for a breakthrough price. Our modular degree learning experience gives you the ability to study online ...",
-        "price": 6500
+        "price": 600
     },
     {
         "id": 5,
@@ -46,21 +46,21 @@
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhkzHZN6KUOI-1ejsLOtKDsJQrAk4DuGRD3w&usqp=CAU",
         "title": "jQuery",
         "description": "Fast Paced Introductory course to learning jQuery. This course is designed to demonstrate and help you learn the core concepts of working with jQuery.",
-        "price": 5500
+        "price": 500
     },
     {
         "id": 8,
         "img": "https://www.onlinebooksreview.com/uploads/blog_images/2019/08/25_Java.jpg",
         "title": "Java",
         "description": "Sava online school is an innovative, dynamic and unconventional teaching program of the Serbian language, culture and tradition, building bridges between new",
-        "price": 4000
+        "price": 400
     },
     {
         "id": 9,
         "img": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/453743/80-C_2B_2B__2x-0c3764392574997f3e23543dd913b678.png",
         "title": "C++",
         "description": "Master your language with lessons, quizzes, and projects designed for real-life scenarios. Create portfolio projects that showcase your new skills to help land your dream job.",
-        "price": 5600
+        "price": 500
     },
     {
         "id": 10,
@@ -74,13 +74,13 @@
         "img": "https://blog.templatetoaster.com/wp-content/uploads/2019/09/What-is-Bootstrap.jpg",
         "title": "Bootstrap",
         "description": "Learning Bootstrap 2 - A Course For Beginners. Learn How To Develop Using Bootstrap. A Comprehensive Guide For Web Developers.",
-        "price": 599
+        "price": 550
     },
     {
         "id": 12,
         "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--GmdhtsFs--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/hmvlcut7wxqua5ijezpu.png",
         "title": "TELWIND CSS",
         "description": "Ray Villalobos is a full-stack design/development teacher and senior staff instructor at LinkedIn Learning.",
-        "price": 6500
+        "price": 650
     }
 ]

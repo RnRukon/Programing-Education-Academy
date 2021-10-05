@@ -9,7 +9,7 @@ const Navbar = () => {
         // Navbar page-------------
         <Nav className="navbar navbar-expand-lg navbar-dark navbar-style-bg sticky-top">
             <div className="container px-5">
-                <Link className="navbar-brand" to="/home"><img className="Logo" src={Logo} alt="" /></Link>
+                <Link className="navbar-brand" to="/home"><img className="Logo" src={Logo} alt="" /><span className="text-danger font-bolder"><small>PEA</small></span></Link>
 
                 {/* navbar-toggler */}
                 <button

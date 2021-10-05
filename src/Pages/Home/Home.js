@@ -1,5 +1,5 @@
 import React from 'react';
-import Blog from '../../Components/Blog/Chart';
+import Blog from '../../Components/Blog/Blog';
 import HomeServiceCart from '../../Components/HomeServiceCart/HomeServiceCart';
 
 const Home = () => {

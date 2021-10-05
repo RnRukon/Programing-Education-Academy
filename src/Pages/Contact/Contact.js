@@ -3,8 +3,8 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <div className="container input-container my-5 p-5">
-            <h2 className="text-center">Contact Us</h2>
+        <div className="container input-container pb-5 my-5">
+            <h2 className="text-center pt-4">Contact Us</h2>
             <div className="container-input-container container">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>

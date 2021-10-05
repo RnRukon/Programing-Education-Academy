@@ -1,4 +1,5 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css'
 import Img from './img/490-4905098_programming-illustration-images-png-transparent-png-removebg-preview.png'
@@ -9,12 +10,12 @@ const Header = () => {
             {/* Header page  */}
 
             <header className=" py-5 hero-style ">
-                <div className="px-5 d-lg-flex container justify-content-around ">
-                    <div className=" justify-content-center">
+                <div className=" d-lg-flex container justify-content-around ">
+                    <Col className=" justify-content-center">
                         <div>
 
                             {/* header content */}
-                            <div className="text-center container my-5">
+                            <div className=" container">
                                 <h1 className=" fw-bolder text-white mb-2">Programing Education Academy</h1>
                                 <p className="lead text-white-50 mb-4">Programming is a skill that comes with numerous benefits. Some of the advantages that come with knowing code are a guaranteed job, getting to create interesting applications, developing problem-solving skills, and sometimes even the opportunity to work from home.</p>
 
@@ -25,11 +26,11 @@ const Header = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Col>
                     {/* header banner */}
-                    <div>
+                    <Col>
                         <img className="img-fluid" src={Img} alt="" />
-                    </div>
+                    </Col>
                 </div>
 
             </header>
